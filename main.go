@@ -1,12 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"go-epccpayment/server"
+	"go-epccpayment/common/log"
+	"go-epccpayment/common/server"
 )
 
 func main() {
-	fmt.Println("vim-go")
-	fmt.Println("go-epccpayment-start")
+	log.Info("go-epccpayment is running!")
 	server.Server()
 }

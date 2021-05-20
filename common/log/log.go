@@ -1,4 +1,4 @@
-package main
+package log
 
 import (
 	golog "log"
@@ -22,6 +22,6 @@ func init() {
 	log = golog.New(file, "go-epcc", golog.LstdFlags)
 }
 
-func info(data string) {
+func Info(data string) {
 	log.Println(data)
 }
