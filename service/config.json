@@ -1,0 +1,11 @@
+{
+  "log": {
+	  "path": "/logs/go-epccpayment/"
+  },
+  "db": {
+	  "ip": "127.0.0.1",
+	  "port": "3306",
+	  "usernmae": "root",
+	  "password": "root123"
+  }
+}
