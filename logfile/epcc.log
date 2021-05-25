@@ -19,37 +19,3 @@ go-epcc2021/05/25 16:46:57 go-epccpayment is running!
 go-epcc2021/05/25 16:47:15 go-epccpayment is running!
 go-epcc2021/05/25 16:47:45 go-epccpayment is running!
 go-epcc2021/05/25 16:47:49 Receive message: <?xml version="1.0" encoding="UTF-8"?>
-<root
-    xmlns="namespace_string">
-    <MsgHeader>
-        <SndDt>2021-05-13T15:05:16</SndDt>
-        <MsgTp>epcc.101.001.01</MsgTp>
-        <IssrId>G4000311000018</IssrId>
-        <Drctn>22</Drctn>
-        <SignSN>4022257724</SignSN>
-        <NcrptnSN>4025016218</NcrptnSN>
-        <DgtlEnvlp>MHwCIQCI7ZaFeZiRPkucRW6Jr4i4NvUNqgd8W7uUq7/RGLezTQIgfOGfr/yYPtKXAfa870+aotjMRDb6RoX4TqzjZKLC6iIEIEe5f+nzsv33v0jub+LEvWSSct6676nwhhKgOxjSE7brBBOnSJ3CofVHdI9zff8GPYasuiXx</DgtlEnvlp>
-    </MsgHeader>
-    <MsgBody>
-        <SgnInf>
-            <SgnAcctIssrId>C1114732000019</SgnAcctIssrId>
-            <SgnAcctTp>01</SgnAcctTp>
-            <SgnAcctId>ofvfqttOmBYT/zDpim1cjBtROSI+7vK2ejNZ7DmI0Pg=</SgnAcctId>
-            <SgnAcctNm>fDYi5L78rJ5k0HLWOZCbzQ==</SgnAcctNm>
-            <IDTp>01</IDTp>
-            <IDNo>R45yYDBfYh+tQqlSGxSzhzIMJJ23jzCltETGkdffwEE=</IDNo>
-            <MobNo>cFXqsI0bc09sze+RbfQm4A==</MobNo>
-        </SgnInf>
-        <TrxInf>
-            <TrxCtgy>0201</TrxCtgy>
-            <TrxId>2021051315050672286469271770101</TrxId>
-            <TrxDtTm>2021-05-13T15:05:06</TrxDtTm>
-            <AuthMsg></AuthMsg>
-            <ClbckUrl></ClbckUrl>
-        </TrxInf>
-        <InstgInf>
-            <InstgId>Z0000000000090</InstgId>
-            <InstgAcct></InstgAcct>
-        </InstgInf>
-    </MsgBody>
-</root>{S:MEUCIQCejuJtqfVOvZk8xiASBm3MJUVko8xrfvaIefWSUug7OAIgJvmKPQjj/qyMaxZiUCc9wywjO/ZYdTbe1J3Bin9PhiQ=}
