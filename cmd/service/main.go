@@ -10,9 +10,9 @@ import (
 
 func main() {
 	log.Info("go-epccpayment is running!")
-	cxt, err := server.Start(context.Background(), service.Start, "/epcc", "localhost", "9051")
+	ctx, err := server.Start(context.Background(), service.Start, "/epcc", "localhost", "9051")
 	if err != nil {
 		log.Info(err.Error())
 	}
-	<-cxt.Done()
+	<-ctx.Done()
 }
