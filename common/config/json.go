@@ -1,4 +1,4 @@
-package config
+package main
 
 import (
 	// "encoding/json"
@@ -16,5 +16,5 @@ func Get(x string) {
 }
 
 func main() {
-	Get("/Users/wangjiawei/go/src/go-epccpayment/config.json")
+	Get("/Users/wangjiawei/go/src/go-epccpayment/service/config.json")
 }

@@ -2,6 +2,7 @@ package service
 
 import (
 	"go-epccpayment/common/log"
+	"go-epccpayment/common/pack"
 	"io/ioutil"
 	"net/http"
 )
@@ -17,6 +18,7 @@ func Server(w http.ResponseWriter, r *http.Request) {
 		if err != nil {
 			log.Info("server receive err: " + err.Error())
 		}
+		pack.Unpack(string(message))
 		w.WriteHeader(http.StatusOK)
 		log.Info("Receive message: " + string(message))
 	default:
