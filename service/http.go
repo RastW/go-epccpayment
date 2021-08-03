@@ -18,7 +18,10 @@ func Server(w http.ResponseWriter, r *http.Request) {
 		if err != nil {
 			log.Info("server receive err: " + err.Error())
 		}
-		pack.Unpack(string(message))
+		_, err = pack.Unpack(r.Body)
+		if err != nil {
+			log.Info(err.Error())
+		}
 		w.WriteHeader(http.StatusOK)
 		log.Info("Receive message: " + string(message))
 	default:
